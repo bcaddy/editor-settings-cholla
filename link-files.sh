@@ -28,7 +28,7 @@ if [ "${1,,}" == "h2p" ]; then
     Makefile_Target="h2p-Makefile"
 # elif [ "${1,,}" == "ANOTHER SYSTEM" ]; then
 else
-    printf "Error: No system specified, please choose a system"
+    printf "Error: No system specified or system does not exist."
     exit 1
 fi
 
