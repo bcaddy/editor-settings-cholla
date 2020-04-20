@@ -1,0 +1,2 @@
+/Users/Bob/Desktop/PhD-Research/cholla/.idea/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/Bob/Desktop/PhD-Research/cholla/.idea/cmake-build-debug/CMakeFiles/edit_cache.dir
