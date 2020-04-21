@@ -14,5 +14,9 @@
         "sdks",
         "system",
         "tools"
+    ],
+    "cSpell.words": [
+        "nfull",
+        "ymin"
     ]
 }
