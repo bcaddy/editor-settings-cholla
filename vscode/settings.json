@@ -18,5 +18,11 @@
     "cSpell.words": [
         "nfull",
         "ymin"
+    ],
+    "cSpell.enableFiletypes": [
+        "cu  //enable for cuda",
+        "cuda",
+        "makefile",
+        "shellscript"
     ]
 }
