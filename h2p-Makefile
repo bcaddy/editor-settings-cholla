@@ -217,8 +217,8 @@ $(EXEC): $(OBJS) src/gpuCode.o
 	 	 $(CXX) $(OBJS) src/gpuCode.o $(LIBS) -o $(EXEC)
 
 src/gpuCode.o:	$(CUOBJS)
-		$(NVCC) -dlink -arch=sm_60 $(CUOBJS) -o src/gpuCode.o
-
+		$(NVCC) -dlink -gencode arch=compute_61,code=[compute_61,sm_61] $(CUOBJS) -o src/gpuCode.o
+                      #-arch=sm_60 default architecture flag
 
 
 .PHONY : clean
