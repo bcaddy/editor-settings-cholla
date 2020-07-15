@@ -7,7 +7,9 @@
             ],
             "defines": [
                 "PRECISION=1",
-                "FLOAT_TYPEDEF=double"
+                "FLOAT_TYPEDEF=double",
+                "EXACT_CUDA_H=1",
+                "CUDA"
             ],
             "macFrameworkPath": [
                 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
