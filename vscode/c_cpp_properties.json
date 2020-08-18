@@ -9,7 +9,10 @@
                 "PRECISION=1",
                 "FLOAT_TYPEDEF=double",
                 "EXACT_CUDA_H=1",
-                "CUDA"
+                "CUDA",
+                "PLMC",
+                "DE",
+                "CTU"
             ],
             "macFrameworkPath": [
                 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
