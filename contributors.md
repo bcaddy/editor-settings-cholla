@@ -1,5 +1,6 @@
 # [cholla-Makefiles](repo URL) contributors (sorted alphabetically)
-============================================
+___
+
 * **[Bob Caddy](https://github.com/bcaddy)**
   * Modified the Makefile to work on each machine that he uses.
 
