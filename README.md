@@ -1,3 +1,7 @@
+# WARNING
+This repo has been archived as it is no longer compatible with Cholla and has been 
+superseded by Cholla's new build system.
+
 # Cholla-Makefiles
 This is a repo to store my Makefiles for cholla.
 
