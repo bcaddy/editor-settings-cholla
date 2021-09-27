@@ -10,11 +10,11 @@
 #   Requires that the Cholla repo is right next to this repo
 #
 
-set -x #echo all commands
+# set -x #echo all commands
 
 # Find the paths
 REPO_ROOT=$(git rev-parse --show-toplevel)
-CHOLLA_ROOT="${REPO_ROOT::-22}"
+CHOLLA_ROOT="${REPO_ROOT::-23}/cholla"
 
 LN="$(which ln)"
 LN_Flags=(
@@ -37,8 +37,7 @@ if [ ${#Files_to_link[@]} != ${#Link_Names[@]} ]; then
     exit 2
 fi
 
-# Iterate over the arrays and do the linking
-for i in {0..2} ##"${#Link_Names[@]}"}
-do
-    "${LN}" "${LN_Flags[@]}" "${REPO_ROOT}/${Files_to_link[$i]}" "${CHOLLA_ROOT}/${Link_Names[$i]}"
-done
+# Iterate over the arrays and do the linking, make a loop here if I end up with
+# more than a couple files
+"${LN}" "${LN_Flags[@]}" "${REPO_ROOT}/${Files_to_link[0]}" "${CHOLLA_ROOT}/${Link_Names[0]}"
+
