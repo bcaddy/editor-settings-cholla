@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Spock",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${OLCF_GOOGLETEST_ROOT}/**",
+                "${OLCF_HDF5_ROOT}/**",
+                "${CRAY_MPICH_BASEDIR}/**",
+                "${GRACKLE_ROOT}/**"
+            ],
+            "defines": [
+                "PRECISION=1"
+            ],
+            "compilerPath": "/opt/cray/pe/cce/12.0.1/cce-clang/x86_64/bin/clang",
+            "intelliSenseMode": "linux-clang-x64",
+            "cppStandard": "c++11",
+            "cStandard": "c11"
+        }
+    ],
+    "version": 4
+}
