@@ -6,8 +6,7 @@
                 "${workspaceFolder}/**",
                 "${OLCF_GOOGLETEST_ROOT}/**",
                 "${OLCF_HDF5_ROOT}/**",
-                "${CRAY_MPICH_BASEDIR}/**",
-                "${GRACKLE_ROOT}/**"
+                "${CRAY_MPICH_BASEDIR}/**"
             ],
             "defines": [
                 "PRECISION=1"
