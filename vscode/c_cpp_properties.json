@@ -15,6 +15,22 @@
             "intelliSenseMode": "linux-clang-x64",
             "cppStandard": "c++11",
             "cStandard": "c11"
+        },
+        {
+            "name": "H2P-Power9-Node",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${GOOGLETEST_ROOT}/**"//,
+                // "${HDF5_ROOT}/**",
+                // "${OPENMPI_ROOT}/**"
+            ],
+            "defines": [
+                "PRECISION=1"
+            ],
+            // "compilerPath": "${GCC_ROOT}",
+            "intelliSenseMode": "linux-gcc-x64",
+            "cppStandard": "c++11",
+            "cStandard": "c11"
         }
     ],
     "version": 4
