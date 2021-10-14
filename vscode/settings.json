@@ -35,10 +35,12 @@
     ],
     "files.associations": {
         "nanorc": "shellscript",
-        "*.summit": "makefile",
-        "*.crc": "shellscript",
+        "*.summit": "shellscript",
+        "*.crc": "makefile",
         "*.hydro": "makefile",
         "*.lux": "shellscript",
+        "*.spock": "makefile",
+        "*.c3po": "makefile",
         "algorithm": "cpp",
         "any": "cpp",
         "array": "cpp",
@@ -98,6 +100,11 @@
         "cinttypes": "cpp",
         "typeinfo": "cpp",
         "variant": "cpp",
-        "filesystem": "cpp"
+        "filesystem": "cpp",
+        "bit": "cpp",
+        "compare": "cpp",
+        "concepts": "cpp",
+        "ranges": "cpp",
+        "stop_token": "cpp"
     }
 }
