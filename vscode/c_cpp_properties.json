@@ -20,14 +20,14 @@
             "name": "H2P-Power9-Node",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${GOOGLETEST_ROOT}/**",
-                "${HDF5_ROOT}/**",
-                "${OPENMPI_ROOT}/**"
+                "/ihome/crc/install/power9/googletest/1.11.0/**",
+                "/ihome/crc/install/power9/hdf5/1.12.0/build-gcc-10.1.0/**",
+                "/ihome/crc/install/power9/openmpi/4.0.5/build-gcc-10.1.0/**"
             ],
             "defines": [
                 "PRECISION=1"
             ],
-            "compilerPath": "${GCC_ROOT}",
+            "compilerPath": "/ihome/crc/install/power9/gcc/10.1.0/build-gcc-8.3.1/bin/g++",
             "intelliSenseMode": "linux-gcc-x64",
             "cppStandard": "c++11",
             "cStandard": "c11"
@@ -41,7 +41,7 @@
             "defines": [
                 "PRECISION=1"
             ],
-            "compilerPath": "/usr/bin/gcc",
+            "compilerPath": "/usr/bin/g++",
             "intelliSenseMode": "linux-gcc-x64",
             "cppStandard": "c++11",
             "cStandard": "c11"
@@ -55,7 +55,7 @@
             "defines": [
                 "PRECISION=1"
             ],
-            "compilerPath": "${/usr/bin/gcc}",
+            "compilerPath": "${/usr/bin/g++}",
             "intelliSenseMode": "linux-gcc-x64",
             "cppStandard": "c++11",
             "cStandard": "c11"
