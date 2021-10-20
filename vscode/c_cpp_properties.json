@@ -20,14 +20,42 @@
             "name": "H2P-Power9-Node",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${GOOGLETEST_ROOT}/**"//,
-                // "${HDF5_ROOT}/**",
-                // "${OPENMPI_ROOT}/**"
+                "${GOOGLETEST_ROOT}/**",
+                "${HDF5_ROOT}/**",
+                "${OPENMPI_ROOT}/**"
             ],
             "defines": [
                 "PRECISION=1"
             ],
-            // "compilerPath": "${GCC_ROOT}",
+            "compilerPath": "${GCC_ROOT}",
+            "intelliSenseMode": "linux-gcc-x64",
+            "cppStandard": "c++11",
+            "cStandard": "c11"
+        },
+        {
+            "name": "c-3po",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${/usr/local/include}/**"
+            ],
+            "defines": [
+                "PRECISION=1"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "intelliSenseMode": "linux-gcc-x64",
+            "cppStandard": "c++11",
+            "cStandard": "c11"
+        },
+        {
+            "name": "Janeway",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/Users/Bob/Desktop/PhD-Research/googletest/build/install_root/**"
+            ],
+            "defines": [
+                "PRECISION=1"
+            ],
+            "compilerPath": "${/usr/bin/gcc}",
             "intelliSenseMode": "linux-gcc-x64",
             "cppStandard": "c++11",
             "cStandard": "c11"
