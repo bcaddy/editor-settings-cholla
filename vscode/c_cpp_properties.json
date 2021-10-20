@@ -55,7 +55,7 @@
             "defines": [
                 "PRECISION=1"
             ],
-            "compilerPath": "${/usr/bin/g++}",
+            "compilerPath": "/usr/bin/g++",
             "intelliSenseMode": "linux-gcc-x64",
             "cppStandard": "c++11",
             "cStandard": "c11"
