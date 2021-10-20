@@ -36,7 +36,7 @@
             "name": "c-3po",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${/usr/local/include}/**"
+                "/usr/local/include/**"
             ],
             "defines": [
                 "PRECISION=1"
