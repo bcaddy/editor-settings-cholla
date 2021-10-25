@@ -27,7 +27,7 @@
             "defines": [
                 "PRECISION=1"
             ],
-            "compilerPath": "/ihome/crc/install/power9/gcc/10.1.0/build-gcc-8.3.1/bin/g++",
+            "compilerPath": "${GCC_ROOT}/bin/g++",
             "intelliSenseMode": "linux-gcc-x64",
             "cppStandard": "c++11",
             "cStandard": "c11"
