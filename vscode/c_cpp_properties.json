@@ -9,7 +9,8 @@
                 "${CRAY_MPICH_BASEDIR}/**"
             ],
             "defines": [
-                "PRECISION=1"
+                "PRECISION=1",
+                "MPI_CHOLLA"
             ],
             "compilerPath": "/opt/cray/pe/cce/12.0.1/cce-clang/x86_64/bin/clang",
             "intelliSenseMode": "linux-clang-x64",
@@ -22,10 +23,12 @@
                 "${workspaceFolder}/**",
                 "/ihome/crc/install/power9/googletest/1.11.0/**",
                 "/ihome/crc/install/power9/hdf5/1.12.0/build-gcc-10.1.0/**",
-                "/ihome/crc/install/power9/openmpi/4.0.5/build-gcc-10.1.0/**"
+                "/ihome/crc/install/power9/openmpi/4.0.5/build-gcc-10.1.0/**",
+                "/ihome/crc/install/power9/cuda/11.1.0/include/**"
             ],
             "defines": [
-                "PRECISION=1"
+                "PRECISION=1",
+                "MPI_CHOLLA"
             ],
             "compilerPath": "${GCC_ROOT}/bin/g++",
             "intelliSenseMode": "linux-gcc-x64",
@@ -39,7 +42,8 @@
                 "/usr/local/include/**"
             ],
             "defines": [
-                "PRECISION=1"
+                "PRECISION=1",
+                "MPI_CHOLLA"
             ],
             "compilerPath": "/usr/bin/g++",
             "intelliSenseMode": "linux-gcc-x64",
@@ -53,7 +57,8 @@
                 "/Users/Bob/Desktop/PhD-Research/googletest/build/install_root/**"
             ],
             "defines": [
-                "PRECISION=1"
+                "PRECISION=1",
+                "MPI_CHOLLA"
             ],
             "compilerPath": "/usr/bin/g++",
             "intelliSenseMode": "linux-gcc-x64",
