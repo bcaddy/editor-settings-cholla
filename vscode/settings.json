@@ -280,6 +280,8 @@
         "*.spock": "makefile",
         "*.c3po": "makefile",
         "*.github": "makefile",
+        "*.particleTests": "makefile",
+        "*.particles": "makefile",
         "algorithm": "cpp",
         "any": "cpp",
         "array": "cpp",
@@ -351,6 +353,8 @@
         "list": "cpp",
         "unordered_set": "cpp",
         "__string": "cpp",
-        "__locale": "cpp"
+        "__locale": "cpp",
+        "locale": "cpp",
+        "__tuple": "cpp"
     }
 }
