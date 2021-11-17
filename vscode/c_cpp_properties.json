@@ -12,7 +12,8 @@
                 "PRECISION=1",
                 "MPI_CHOLLA",
                 "CUDA",
-                "HLLD"
+                "HLLD",
+                "PARTICLES"
             ],
             "compilerPath": "/opt/cray/pe/cce/12.0.1/cce-clang/x86_64/bin/clang",
             "intelliSenseMode": "linux-clang-x64",
@@ -32,7 +33,8 @@
                 "PRECISION=1",
                 "MPI_CHOLLA",
                 "CUDA",
-                "HLLD"
+                "HLLD",
+                "PARTICLES"
             ],
             "compilerPath": "${GCC_ROOT}/bin/g++",
             "intelliSenseMode": "linux-gcc-x64",
@@ -49,7 +51,8 @@
                 "PRECISION=1",
                 "MPI_CHOLLA",
                 "CUDA",
-                "HLLD"
+                "HLLD",
+                "PARTICLES"
             ],
             "compilerPath": "/usr/bin/g++",
             "intelliSenseMode": "linux-gcc-x64",
@@ -66,7 +69,8 @@
                 "PRECISION=1",
                 "MPI_CHOLLA",
                 "CUDA",
-                "HLLD"
+                "HLLD",
+                "PARTICLES"
             ],
             "compilerPath": "/usr/bin/g++",
             "intelliSenseMode": "linux-gcc-x64",
