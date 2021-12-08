@@ -9,7 +9,7 @@
                 "${CRAY_MPICH_BASEDIR}/**"
             ],
             "defines": [
-                "PRECISION=1",
+                "PRECISION=2",
                 "MPI_CHOLLA",
                 "CUDA",
                 "HLLD",
@@ -30,7 +30,7 @@
                 "/ihome/crc/install/power9/cuda/11.1.0/include/**"
             ],
             "defines": [
-                "PRECISION=1",
+                "PRECISION=2",
                 "MPI_CHOLLA",
                 "CUDA",
                 "HLLD",
@@ -48,7 +48,7 @@
                 "/usr/local/include/**"
             ],
             "defines": [
-                "PRECISION=1",
+                "PRECISION=2",
                 "MPI_CHOLLA",
                 "CUDA",
                 "HLLD",
@@ -66,7 +66,7 @@
                 "/Users/Bob/Desktop/PhD-Research/googletest/build/install_root/**"
             ],
             "defines": [
-                "PRECISION=1",
+                "PRECISION=2",
                 "MPI_CHOLLA",
                 "CUDA",
                 "HLLD",
