@@ -1,0 +1,31 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "MHD Tests",
+            "type": "cuda-gdb",
+            "request": "launch",
+            "program": "${workspaceFolder}/bin/cholla.mhd.c3po.tests",
+            "args": "--cholla-root /home/rcaddy/Code/cholla --build-type mhd --machine c3po --mpi-launcher 'mpirun -np' '--gtest_filter=*Ein*' --gtest_output=xml:/home/rcaddy/Code/cholla/bin/",
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "setupCommands": [
+                {
+                    "description": "Make STL containers readable",
+                    "text": "python import sys; sys.path.insert(0, '/home/rcaddy/.gdb-stl-printing'); from libstdcxx.v6.printers import register_libstdcxx_printers;register_libstdcxx_printers(None)",
+                    "ignoreFailures": false
+                },
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}
