@@ -1,10 +1,6 @@
-# WARNING
-This repo has been archived as it is no longer compatible with Cholla and has been
-superseded by Cholla's new build system.
-
 # Editor Settings for Cholla
-Contains settings for various text editors and IDE's (mostly VSC) to use with
-Cholla
+Contains settings I use for various text editors and IDE's (mostly VSC) to use with
+Cholla. You're welcome to use it but it's 100% at your own risk.
 
 ## Dependencies:
 * Bash
