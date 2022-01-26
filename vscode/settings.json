@@ -285,6 +285,8 @@
         "*.github": "makefile",
         "*.particleTests": "makefile",
         "*.particles": "makefile",
+        "*.mhd": "makefile",
+        "*.frontier": "makefile",
         "algorithm": "cpp",
         "any": "cpp",
         "array": "cpp",
@@ -358,6 +360,7 @@
         "__string": "cpp",
         "__locale": "cpp",
         "locale": "cpp",
-        "__tuple": "cpp"
+        "__tuple": "cpp",
+        "valarray": "cpp"
     }
 }
