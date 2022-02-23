@@ -73,7 +73,10 @@
             "name": "c-3po",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/usr/local/include/**"
+                "/usr/local/include/**",
+                "/usr/lib/x86_64-linux-gnu/openmpi/include/",
+                "/usr/local/cuda-11.4/include",
+                "/usr/lib/x86_64-linux-gnu/hdf5/serial/include/"
             ],
             "defines": [
                 "PRECISION=2",
