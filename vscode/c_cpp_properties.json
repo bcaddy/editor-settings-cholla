@@ -97,7 +97,9 @@
                 "DENSITY_FLOOR",
                 "TEMPERATURE_FLOOR",
                 "CPU_TIME",
-                "PARALLEL_OMP"
+                "PARALLEL_OMP",
+                "N_OMP_THREADS=10",
+                "VL"
             ],
             "compilerPath": "/usr/bin/g++",
             "intelliSenseMode": "linux-gcc-x64",
