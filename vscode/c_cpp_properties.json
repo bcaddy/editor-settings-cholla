@@ -27,7 +27,9 @@
                 "DENSITY_FLOOR",
                 "TEMPERATURE_FLOOR",
                 "CPU_TIME",
-                "PARALLEL_OMP"
+                "PARALLEL_OMP",
+                "GIT_HASH=\"githash\"",
+                "MACRO_FLAGS=\"-DMACRO -DFLAGS\""
             ],
             "compilerPath": "/opt/cray/pe/cce/12.0.1/cce-clang/x86_64/bin/clang",
             "intelliSenseMode": "linux-clang-x64",
@@ -62,7 +64,9 @@
                 "DENSITY_FLOOR",
                 "TEMPERATURE_FLOOR",
                 "CPU_TIME",
-                "PARALLEL_OMP"
+                "PARALLEL_OMP",
+                "GIT_HASH=\"githash\"",
+                "MACRO_FLAGS=\"-DMACRO -DFLAGS\""
             ],
             "compilerPath": "${GCC_ROOT}/bin/g++",
             "intelliSenseMode": "linux-gcc-x64",
@@ -99,7 +103,9 @@
                 "CPU_TIME",
                 "PARALLEL_OMP",
                 "N_OMP_THREADS=10",
-                "VL"
+                "VL",
+                "GIT_HASH=\"githash\"",
+                "MACRO_FLAGS=\"-DMACRO -DFLAGS\""
             ],
             "compilerPath": "/usr/bin/g++",
             "intelliSenseMode": "linux-gcc-x64",
@@ -131,7 +137,9 @@
                 "DENSITY_FLOOR",
                 "TEMPERATURE_FLOOR",
                 "CPU_TIME",
-                "PARALLEL_OMP"
+                "PARALLEL_OMP",
+                "GIT_HASH=\"githash\"",
+                "MACRO_FLAGS=\"-DMACRO -DFLAGS\""
             ],
             "compilerPath": "/usr/bin/g++",
             "intelliSenseMode": "linux-gcc-x64",
