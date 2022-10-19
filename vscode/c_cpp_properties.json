@@ -1,10 +1,10 @@
 {
     "configurations": [
         {
-            "name": "Spock",
+            "name": "Frontier",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${OLCF_GOOGLETEST_ROOT}/**",
+                // "${OLCF_GOOGLETEST_ROOT}/**",
                 "${OLCF_HDF5_ROOT}/**",
                 "${CRAY_MPICH_BASEDIR}/**"
             ],
@@ -30,9 +30,10 @@
                 "CPU_TIME",
                 "PARALLEL_OMP",
                 "GIT_HASH=\"githash\"",
-                "MACRO_FLAGS=\"-DMACRO -DFLAGS\""
+                "MACRO_FLAGS=\"-DMACRO -DFLAGS\"",
+                "O_HIP"
             ],
-            "compilerPath": "/opt/cray/pe/cce/12.0.1/cce-clang/x86_64/bin/clang",
+            "compilerPath": "/opt/cray/pe/craype/2.7.16/bin/CC",
             "intelliSenseMode": "linux-clang-x64",
             "cppStandard": "c++17",
             "cStandard": "c17"
