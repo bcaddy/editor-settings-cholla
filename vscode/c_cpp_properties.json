@@ -108,7 +108,9 @@
                 "N_OMP_THREADS=10",
                 "VL",
                 "GIT_HASH=\"githash\"",
-                "MACRO_FLAGS=\"-DMACRO -DFLAGS\""
+                "MACRO_FLAGS=\"-DMACRO -DFLAGS\"",
+                // "DE",
+                "SCALAR"
             ],
             "compilerPath": "/usr/bin/g++",
             "intelliSenseMode": "linux-gcc-x64",
