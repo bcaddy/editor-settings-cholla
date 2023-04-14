@@ -394,5 +394,6 @@
         "__hash_table": "cpp",
         "__split_buffer": "cpp"
     },
-    "C_Cpp.loggingLevel": "Debug"
+    "C_Cpp.loggingLevel": "Debug",
+    "editor.tabSize": 2
 }
