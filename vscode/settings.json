@@ -392,7 +392,9 @@
         "__errc": "cpp",
         "__threading_support": "cpp",
         "__hash_table": "cpp",
-        "__split_buffer": "cpp"
+        "__split_buffer": "cpp",
+        "queue": "cpp",
+        "stack": "cpp"
     },
     "C_Cpp.loggingLevel": "Debug",
     "editor.tabSize": 2
