@@ -79,6 +79,7 @@
         "fabs",
         "FACOR",
         "fclose",
+        "Felker",
         "fflush",
         "fgets",
         "filein",
@@ -394,7 +395,8 @@
         "__hash_table": "cpp",
         "__split_buffer": "cpp",
         "queue": "cpp",
-        "stack": "cpp"
+        "stack": "cpp",
+        "semaphore": "cpp"
     },
     "C_Cpp.loggingLevel": "Debug",
     "editor.tabSize": 2
