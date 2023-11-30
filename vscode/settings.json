@@ -397,6 +397,7 @@
         "queue": "cpp",
         "stack": "cpp",
         "semaphore": "cpp"
+        "__threading_support": "cpp"
     },
     "C_Cpp.loggingLevel": "Debug",
     "editor.tabSize": 2
